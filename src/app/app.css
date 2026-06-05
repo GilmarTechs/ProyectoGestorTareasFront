@@ -1,0 +1,24 @@
+.card {
+  transition: all .3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+table tbody tr {
+  transition: .2s;
+}
+
+table tbody tr:hover {
+  transform: scale(1.01);
+}
+
+.badge {
+  font-size: .9rem;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
